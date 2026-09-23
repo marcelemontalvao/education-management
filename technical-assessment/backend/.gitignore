@@ -1,0 +1,15 @@
+node_modules/
+hashPwd.js
+
+# Local configuration and authentication artifacts
+.env
+.env.*
+!.env.example
+cookies.txt
+login-headers.txt
+login-body.json
+
+# Runtime files
+*.log
+*.pid
+*.tmp

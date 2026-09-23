@@ -1,0 +1,30 @@
+# Dependencies
+**/node_modules/
+
+# Environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Runtime and local test artifacts
+**/cookies.txt
+**/login-headers.txt
+**/login-body.json
+**/*.log
+**/*.pid
+**/*.tmp
+**/*.zip
+
+# Build output
+**/dist/
+**/dist-ssr/
+**/build/
+**/coverage/
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.swp
+*.swo
